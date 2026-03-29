@@ -1,10 +1,10 @@
-# ⚡ TaskFlow — Scalable REST API with Auth & RBAC
+#  TaskFlow — Scalable REST API with Auth & RBAC
 
 A production-ready full-stack task management application built with **Node.js + Express + MySQL** (backend) and **React** (frontend), featuring JWT authentication, role-based access control, and a clean developer experience.
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 taskflow/
@@ -43,7 +43,7 @@ taskflow/
 
 ---
 
-## 🚀 Quick Start (Local Development)
+##  Quick Start (Local Development)
 
 ### Prerequisites
 - Node.js ≥ 18
@@ -78,7 +78,7 @@ npm start                       # Starts on http://localhost:3000
 
 ---
 
-## 🐳 Docker Setup (Recommended)
+##  Docker Setup (Recommended)
 
 ```bash
 # From the project root
@@ -92,7 +92,7 @@ Services start at:
 
 ---
 
-## 🔑 API Endpoints
+##  API Endpoints
 
 ### Base URL: `http://localhost:5000/api/v1`
 
@@ -123,7 +123,7 @@ Services start at:
 
 ---
 
-## 🗄️ Database Schema
+##  Database Schema
 
 ```sql
 users
@@ -138,7 +138,7 @@ tasks
 
 ---
 
-## 🔐 Security Features
+##  Security Features
 
 - **Passwords** hashed with `bcryptjs` (10 rounds)
 - **JWT** signed with HS256, configurable expiry
@@ -159,7 +159,7 @@ The **Login** request automatically saves the JWT token to `{{token}}` for all s
 
 ---
 
-## 👤 Demo Credentials
+##  Demo Credentials
 
 | Role | Email | Password |
 |------|-------|----------|
@@ -168,13 +168,13 @@ The **Login** request automatically saves the JWT token to `{{token}}` for all s
 
 ---
 
-## 🏗️ Scalability
+##  Scalability
 
 See [SCALABILITY.md](./SCALABILITY.md) for the full architecture roadmap including horizontal scaling, Redis caching, microservices migration path, and CI/CD.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
