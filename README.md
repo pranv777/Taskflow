@@ -151,7 +151,7 @@ tasks
 
 ---
 
-## 📬 Postman Collection
+##  Postman Collection
 
 Import `TaskFlow_API.postman_collection.json` into Postman.
 
